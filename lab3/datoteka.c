@@ -34,8 +34,6 @@ void zapisi_status(int broj)
 		printf("Nije upisan broj u %s!\n", dat_status);
 		exit(1);
 	}
-	else printf("Upisan broj %d u datoteku obrada.\n", broj);
-
 	fclose(fp);
 }
 
@@ -52,6 +50,8 @@ void dodaj_broj(int broj)
 		printf("Nije upisan broj u %s!\n", dat_obrada);
 		exit(1);
 	}
+	else printf("Upisan broj %d u datoteku obrada.\n", broj);
+
 	fclose(fp);
 }
 
@@ -72,6 +72,8 @@ int pronadji_zadnji_broj()
 	return broj;
 }
 
+
+//dio za lab2
 int dohvati_iz_cijevi()
 {
 	FILE *fp;

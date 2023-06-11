@@ -7,4 +7,6 @@ int procitaj_status();
 void zapisi_status(int broj);
 void dodaj_broj(int broj);
 int pronadji_zadnji_broj();
+
+//dio za lab2
 int dohvati_iz_cijevi();
